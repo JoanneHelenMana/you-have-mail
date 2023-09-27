@@ -2,8 +2,8 @@ from Classes.alice import Alice
 from Classes.bob import Bob
 from Classes.letterbox import Letterbox
 
-bob = Bob()
-alice = Alice()
+bob = Person()
+alice = Person()
 
 
 def main():

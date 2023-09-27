@@ -8,10 +8,11 @@ class Person:
         self.letterbox = letterbox
         self.letter = letter
 
-    def write_letter(self, content):
+    def write_letter(self, content, addressee):
         self.letter = Letter()
         self.letter.content = content
         self.letter.encrypted = true
+        self.letter.addressed_to = addressee
         return f"{self.letter.content}"
 
     def drop_letter(self, letter, letterbox):

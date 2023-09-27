@@ -1,5 +1,5 @@
 
-class Postie(PostOffice):
+class Postie:
     def __init__(self):
         pass
 
